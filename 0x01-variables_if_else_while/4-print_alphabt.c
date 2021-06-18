@@ -15,7 +15,7 @@ for (a = 'a'; a <= 'z'; a++)
 {
 if (a != 'q' && a != 'e')
 putchar(a);
-if(a == 'z')
+if (a == 'z')
 putchar('\n');
 }
 return (0);
