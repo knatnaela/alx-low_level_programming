@@ -1,12 +1,12 @@
 #include "holberton.h"
 /* more headers goes there */
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Return: Always 0 (Success)
 */
 /* betty style doc for function main goes there */
-void print_alphabet()
+void print_alphabet(void)
 {
 char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
