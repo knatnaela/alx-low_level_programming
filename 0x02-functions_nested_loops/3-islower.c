@@ -3,13 +3,10 @@
 /* more headers goes there */
 /**
 * _islower - Entry point
-*
-* Return: Always 0 (Success)
+*@c: The character or ascii code
+*Return: 0 or 1
 */
-/* 
-Returns 1 if c is lowercase
-Returns 0 otherwise
- */
+/* betty style doc for function main goes there */
 int _islower(int c)
 {
 int result;
