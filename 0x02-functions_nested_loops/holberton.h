@@ -22,3 +22,8 @@ int _islower(int c);
 #define IS_ALPHA
 int _isalpha(int c);
 #endif
+
+#ifndef PRINT_SIGN
+#define PRINT_SIGN
+int print_sign(int c);
+#endif
