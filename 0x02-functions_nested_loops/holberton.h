@@ -47,3 +47,8 @@ void jack_bauer(void);
 #define _TIMES_TABLE
 void times_table(void);
 #endif
+
+#ifndef _ADD
+#define _ADD
+int add(int, int);
+#endif
