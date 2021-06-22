@@ -14,9 +14,6 @@ int result;
 if (c >= 97 && c <= 122)
 {
 result = 1;
-}else if (c >= 65 && c <= 90)	
-{
-result = 0;
 }else
 {
 result = 0;
