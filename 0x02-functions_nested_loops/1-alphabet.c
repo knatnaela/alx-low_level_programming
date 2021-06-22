@@ -6,9 +6,10 @@
 * Return: Always 0 (Success)
 */
 /* betty style doc for function main goes there */
-void print_alphabet(){
+void print_alphabet()
+{
 char alphabet;
-for(alphabet='a'; alphabet <= 'z'; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 _putchar(alphabet);
 if (alphabet == 'z')
