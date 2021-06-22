@@ -32,3 +32,8 @@ int print_sign(int c);
 #define _ABS
 int _abs(int);
 #endif
+
+#ifndef _PRINT_LAST_DIGIT
+#define _PRINT_LAST_DIGIT
+int print_last_digit(int);
+#endif
