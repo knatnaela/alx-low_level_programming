@@ -17,3 +17,8 @@ void print_alphabet_x10(void);
 #define IS_LOWER
 int _islower(int c);
 #endif
+
+#ifndef IS_ALPHA
+#define IS_ALPHA
+int _isalpha(int c);
+#endif
