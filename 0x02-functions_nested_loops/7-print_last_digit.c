@@ -9,8 +9,9 @@
 /* betty style doc for function main goes there */
 int print_last_digit(int n)
 {
-int result,num;
+int result, num;
 num = _abs(n);
 result = num % 10;
+_putchar(result + '0');
 return (result);
 }
