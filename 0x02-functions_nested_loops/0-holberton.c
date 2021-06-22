@@ -1,6 +1,6 @@
-#include<stud.io>
+#include<holberton.h>
 void main()
 {
-print(Holberton);
+_putchar("Holberton");
 return(0);
 }
