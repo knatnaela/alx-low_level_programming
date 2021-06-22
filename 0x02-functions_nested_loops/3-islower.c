@@ -6,7 +6,10 @@
 *
 * Return: Always 0 (Success)
 */
-/* betty style doc for function main goes there */
+/* 
+Returns 1 if c is lowercase
+Returns 0 otherwise
+ */
 int _islower(int c)
 {
 int result;
