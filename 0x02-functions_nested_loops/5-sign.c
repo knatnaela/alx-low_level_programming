@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _isalpha - check the code for ALX School students.
-*@c: The character or ascii code
-*Return: 0 or 1
+ *print_sign - display + positive, - negative, 0 zero
+ *@n: parameter character or code ascii
+ *Return: + - or 0
  */
 int print_sign(int n)
 {
