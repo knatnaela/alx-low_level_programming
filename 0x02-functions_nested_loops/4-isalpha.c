@@ -1,14 +1,14 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
+ * _isalpha - check the code for ALX School students.
+*@c: The character or ascii code
+*Return: 0 or 1
  */
 int _isalpha(int c)
 {
 int result;
-if (c >= 65 && c <= 90 || c >= 97 && c <= 122)
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 {
 result = 1;
 }
