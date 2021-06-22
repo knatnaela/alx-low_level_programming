@@ -12,3 +12,8 @@ void print_alphabet(void);
 #define PRINT_ALPHABET_X10
 void print_alphabet_x10(void);
 #endif
+
+#ifndef IS_LOWER
+#define IS_LOWER
+int _islower(int c);
+#endif
