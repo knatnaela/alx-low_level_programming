@@ -8,6 +8,8 @@
 */
 int convert_day(int month, int day)
 {
+if (!month > 1 && !month < 12 && !day > 1 && !day > 31)
+{
 switch (month)
 {
 case 2:
@@ -45,6 +47,7 @@ day = 334 + day;
 break;
 default:
 break;
+}
 }
 return (day);
 }
